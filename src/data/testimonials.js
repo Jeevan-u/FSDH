@@ -1,0 +1,68 @@
+export const testimonials = [
+  {
+    id: 1,
+    name: 'Aarti Mehta',
+    location: 'Nelamangala',
+    rating: 5,
+    treatment: 'Pigmentation Treatment',
+    text: 'I had been struggling with pigmentation for years. After just a few sessions here, my skin looks visibly brighter and healthier. So grateful for the care and expertise!',
+    date: '2 months ago',
+  },
+  {
+    id: 2,
+    name: 'Vikram Raj',
+    location: 'Bangalore',
+    rating: 5,
+    treatment: 'Hair Loss Treatment',
+    text: 'Hair thinning had taken a toll on my confidence. The customized treatment plan not only helped me regain hair but also my self-esteem. Thank you, doctor!',
+    date: '1 month ago',
+  },
+  {
+    id: 3,
+    name: 'Riya Nambiar',
+    location: 'Tumkur',
+    rating: 5,
+    treatment: 'Acne Scar Treatment',
+    text: 'Teenage acne had left scars and dullness. The results after my treatment have been amazing—clear skin and a glow I never thought I\'d have again!',
+    date: '3 months ago',
+  },
+  {
+    id: 4,
+    name: 'Sneha Patil',
+    location: 'Nelamangala',
+    rating: 5,
+    treatment: 'Skin Glow Treatment',
+    text: 'I visited just before my wedding and opted for the glow treatment. My skin was radiant, and I received so many compliments on my big day!',
+    date: '2 weeks ago',
+  },
+  {
+    id: 5,
+    name: 'Anirudh Shetty',
+    location: 'Dodballapur',
+    rating: 5,
+    treatment: 'Scalp Treatment',
+    text: 'Persistent dandruff and itching were making daily life uncomfortable. The doctor identified the root cause and solved it within weeks.',
+    date: '1 month ago',
+  },
+  {
+    id: 6,
+    name: 'Meenal Verma',
+    location: 'Bangalore',
+    rating: 5,
+    treatment: 'Laser Scar Treatment',
+    text: 'An old burn scar on my face had always made me conscious. The laser sessions made a noticeable difference. I\'m finally at peace with my skin.',
+    date: '1 week ago',
+  },
+  {
+    id: 7,
+    name: 'Ramesh Kumar',
+    location: 'Nelamangala',
+    rating: 5,
+    treatment: 'General Consultation',
+    text: 'From the consultation to follow-ups, everything was smooth and professional. I appreciated how well the doctor explained each step of the process.',
+    date: '3 weeks ago',
+  },
+];
+
+export const googleRating = 4.9;
+export const totalReviews = 127;

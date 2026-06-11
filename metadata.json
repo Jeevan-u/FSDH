@@ -1,0 +1,7 @@
+{
+  "name": "Prashali Skin Sciences",
+  "description": "Premium dermatology, cosmetology, trichology, laser and aesthetic clinic in Nelamangala, Bangalore. Led by Dr. Varsha R. Koti (MBBS, MD, DNB).",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
