@@ -50,7 +50,7 @@ export default function BeforeAfterSection() {
               className="group"
             >
               <div className="relative rounded-2xl overflow-hidden shadow-xl mb-5">
-                <div className="aspect-[4/3] overflow-hidden">
+                <div className="aspect-4/3 overflow-hidden">
                   <img
                     src={item.image}
                     alt={item.title}

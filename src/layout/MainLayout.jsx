@@ -9,7 +9,7 @@ export default function MainLayout() {
   return (
     <div className="min-h-screen flex flex-col">
       <Navbar />
-      <main className="flex-grow pb-16 lg:pb-0">
+      <main className="grow pb-16 lg:pb-0">
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
