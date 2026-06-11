@@ -140,7 +140,7 @@ export default function Footer() {
         </div>
 
         <div className="pt-8 border-t border-white/10 text-center text-sm text-white/70 space-y-2">
-          <p>© {new Date().getFullYear()} Prashali Skin Sciences. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Prashali Skin Sciences. All rights reserved. Built by Jeevan.</p>
           <p className="text-xs text-white/60">Nelamangala | Bangalore | Tumkur | Dodballapur</p>
         </div>
       </div>
