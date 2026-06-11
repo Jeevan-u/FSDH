@@ -3,7 +3,7 @@
 
 @import "tailwindcss";
 
-:root {
+@theme {
   --color-primary-50: #edefee;
   --color-primary-100: #d2d6d4;
   --color-primary-200: #a5ada8;
@@ -51,7 +51,7 @@
   }
 
   body {
-    font-family: 'Inter', sans-serif;
+    font-family: var(--font-body);
     color: #2d3a36;
     background-color: #faf7f2;
     -webkit-tap-highlight-color: transparent;
@@ -62,7 +62,7 @@
   }
 
   h1, h2, h3, h4, h5 {
-    font-family: 'Playfair Display', serif;
+    font-family: var(--font-display);
     color: #1a2420;
   }
 }
