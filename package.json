@@ -3,22 +3,20 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "scripts": {
     "dev": "vite --port=3000 --host=0.0.0.0",
     "build": "vite build",
     "preview": "vite preview",
-    "clean": "rm -rf dist",
-    "postbuild": "cp dist/index.html dist/404.html && touch dist/.nojekyll",
-    "deploy": "npm run build && npx gh-pages -d dist --dotfiles"
+    "clean": "rm -rf dist"
   },
   "dependencies": {
     "@google/genai": "^1.29.0",
     "@tailwindcss/vite": "^4.2.1",
     "@vitejs/plugin-react": "^5.0.4",
-    "better-sqlite3": "^12.4.1",
     "clsx": "^2.1.1",
-    "dotenv": "^17.2.3",
-    "express": "^4.21.2",
     "framer-motion": "^12.35.0",
     "lucide-react": "^0.546.0",
     "motion": "^12.23.24",
@@ -31,7 +29,6 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.27",
-    "gh-pages": "^6.3.0",
     "postcss": "^8.5.8",
     "tailwindcss": "^4.2.1",
     "vite": "^6.2.0"
