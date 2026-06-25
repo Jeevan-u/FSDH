@@ -1,11 +1,12 @@
 import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { Shield, Award, Sparkles, Star, CheckCircle, ArrowRight, Calendar, MessageCircle, HeartPulse, Syringe, BadgeCheck, MapPin, Quote, Clock, Phone } from 'lucide-react';
+import { Shield, Award, Sparkles, Star, CheckCircle, ArrowRight, Calendar, MessageCircle, HeartPulse, Syringe, BadgeCheck, MapPin, Quote, Clock, Phone, Zap, Droplets, Heart, Sun } from 'lucide-react';
 import { doctor } from '../data/doctor';
 import TreatmentIconGrid from '../components/TreatmentIconGrid';
 import TestimonialCarousel from '../components/TestimonialCarousel';
 import BookingSteps from '../components/BookingSteps';
+import BeforeAfterSection from '../components/BeforeAfterSection';
 
 const stats = [
   { value: '5000+', label: 'Happy Patients' },
@@ -260,6 +261,70 @@ export default function Home() {
 
       <TreatmentIconGrid />
 
+      {/* ===== POPULAR TREATMENTS ===== */}
+      <section className="section-padding gradient-section">
+        <div className="max-w-7xl mx-auto">
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="text-center mb-14"
+          >
+            <p className="text-xs text-accent-500 font-semibold uppercase tracking-widest mb-2">What We Treat</p>
+            <h2 className="text-2xl md:text-4xl font-bold text-slate-900 font-display">
+              Popular Treatments
+            </h2>
+            <p className="text-slate-500 text-sm mt-2 max-w-xl mx-auto">
+              Advanced, science-backed treatments for every skin and hair concern.
+            </p>
+          </motion.div>
+
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
+            {[
+              { icon: Sparkles, title: 'Acne Treatment', slug: 'acne-treatment', color: 'from-rose-500 to-pink-500' },
+              { icon: Heart, title: 'PRP Therapy', slug: 'prp-therapy', color: 'from-red-500 to-rose-500' },
+              { icon: Droplets, title: 'HydraFacial', slug: 'hydrafacial', color: 'from-cyan-500 to-blue-500' },
+              { icon: Zap, title: 'Laser Hair Reduction', slug: 'laser-hair-reduction', color: 'from-violet-500 to-purple-500' },
+              { icon: Sparkles, title: 'Acne Scar Treatment', slug: 'acne-scar-treatment', color: 'from-amber-500 to-orange-500' },
+              { icon: Sun, title: 'Chemical Peels', slug: 'chemical-peels', color: 'from-yellow-500 to-amber-500' },
+              { icon: Clock, title: 'Anti-Aging', slug: 'anti-aging-treatment', color: 'from-teal-500 to-emerald-500' },
+              { icon: Syringe, title: 'Botox & Fillers', slug: 'botox-fillers', color: 'from-indigo-500 to-blue-500' },
+            ].map((t, i) => (
+              <Link key={t.slug} to={`/treatments/${t.slug}`}>
+                <motion.div
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ delay: i * 0.07 }}
+                  className="group relative card-premium p-5 md:p-6 text-center hover:-translate-y-2 transition-all duration-300 cursor-pointer overflow-hidden"
+                >
+                  <div className={`absolute inset-0 bg-gradient-to-br ${t.color} opacity-0 group-hover:opacity-100 transition-opacity duration-300`} />
+                  <div className="relative z-10">
+                    <div className={`w-14 h-14 mx-auto mb-4 rounded-2xl flex items-center justify-center bg-gradient-to-br ${t.color} shadow-lg transition-transform duration-300 group-hover:scale-110`}>
+                      <t.icon className="h-7 w-7 text-white" />
+                    </div>
+                    <h3 className="text-sm md:text-base font-bold text-slate-900 group-hover:text-white transition-colors duration-300 font-display">
+                      {t.title}
+                    </h3>
+                  </div>
+                </motion.div>
+              </Link>
+            ))}
+          </div>
+
+          <motion.div
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true }}
+            className="text-center mt-10"
+          >
+            <Link to="/treatments" className="btn-primary">
+              View All Treatments <ArrowRight className="h-4 w-4" />
+            </Link>
+          </motion.div>
+        </div>
+      </section>
+
       {/* ===== QUOTE / TRUST ===== */}
       <section className="relative overflow-hidden">
         <div className="gradient-primary">
@@ -307,6 +372,8 @@ export default function Home() {
       <TestimonialCarousel />
 
       <BookingSteps />
+
+      <BeforeAfterSection />
 
       {/* ===== FINAL CTA ===== */}
       <section className="gradient-primary relative overflow-hidden">
