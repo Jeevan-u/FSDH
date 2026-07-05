@@ -32,7 +32,7 @@ npm run dev
 
 ## Live Demo
 
-[View Live Site](https://69bc29e2ce61ee007e4630ac--celebrated-chimera-9bdec1.netlify.app/)
+[View Live Site]https://www.prashaliskinsciences.com/
 
 ---
 
