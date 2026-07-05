@@ -1,7 +1,7 @@
 import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { Shield, Award, Sparkles, Star, CheckCircle, ArrowRight, Calendar, MessageCircle, HeartPulse, Syringe, BadgeCheck, MapPin, Quote, Clock, Phone, Zap, Droplets, Heart, Sun } from 'lucide-react';
+import { Shield, Award, Sparkles, Star, CheckCircle, ArrowRight, Calendar, HeartPulse, Syringe, BadgeCheck, MapPin, Quote, Clock, Phone, Zap, Droplets, Heart, Sun } from 'lucide-react';
 import { doctor } from '../data/doctor';
 import TreatmentIconGrid from '../components/TreatmentIconGrid';
 import TestimonialCarousel from '../components/TestimonialCarousel';
@@ -145,13 +145,13 @@ export default function Home() {
                   Book Appointment
                 </Link>
                 <a
-                  href="https://wa.me/919606042223?text=Hi! I would like to book a consultation at Prashali Skin Sciences."
+                  href="https://hplix.in/HPL191347"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center justify-center gap-2 px-8 py-3.5 border border-white/25 text-white/90 rounded-full font-semibold hover:bg-white/10 hover:border-white/50 transition-all"
                 >
-                  <MessageCircle className="h-4 w-4" />
-                  WhatsApp Consultation
+                  <Calendar className="h-4 w-4" />
+                  Book Online
                 </a>
               </motion.div>
 

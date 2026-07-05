@@ -1,8 +1,7 @@
 import { Helmet } from 'react-helmet-async';
 import { motion } from 'framer-motion';
 import AppointmentForm from '../components/AppointmentForm';
-import { Calendar, Clock, ShieldCheck, Phone, MessageCircle, Star, Timer } from 'lucide-react';
-import { Link } from 'react-router-dom';
+import { Calendar, Clock, ShieldCheck, Phone, Star, Timer } from 'lucide-react';
 
 export default function Appointment() {
   return (
@@ -91,13 +90,13 @@ export default function Appointment() {
                 +91 9606042223
               </a>
               <a
-                href="https://wa.me/919606042223?text=Hi! I need immediate consultation at Prashali Skin Sciences."
+                href="https://hplix.in/HPL191347"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center gap-2 w-full py-3 mt-3 border border-white/30 text-white rounded-xl font-semibold hover:bg-white/10 transition-all"
               >
-                <MessageCircle className="h-5 w-5" />
-                WhatsApp
+                <Calendar className="h-5 w-5" />
+                Book Online
               </a>
             </div>
 

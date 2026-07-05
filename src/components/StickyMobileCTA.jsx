@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Phone, MessageCircle, Calendar } from 'lucide-react';
+import { Phone, Calendar } from 'lucide-react';
 
 export default function StickyMobileCTA() {
   return (
@@ -14,13 +14,13 @@ export default function StickyMobileCTA() {
           Call
         </a>
         <a
-          href="https://wa.me/919606042223?text=Hi! I would like to book a consultation at Prashali Skin Sciences."
+          href="https://hplix.in/HPL191347"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center justify-center gap-2 px-4 py-2.5 bg-green-500 text-white rounded-xl text-sm font-semibold flex-1"
         >
-          <MessageCircle className="h-4 w-4" />
-          WhatsApp
+          <Calendar className="h-4 w-4" />
+          Book Now
         </a>
         <Link
           to="/appointment"

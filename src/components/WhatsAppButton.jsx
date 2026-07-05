@@ -1,9 +1,8 @@
 import React from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { MessageCircle, X } from 'lucide-react';
+import { Calendar, X } from 'lucide-react';
 
-const WHATSAPP_NUMBER = '919606042223';
-const WHATSAPP_MESSAGE = 'Hi! I would like to book a consultation at Prashali Skin Sciences.';
+const BOOKING_URL = 'https://hplix.in/HPL191347';
 
 export default function WhatsAppButton() {
   const [showTooltip, setShowTooltip] = React.useState(false);
@@ -12,8 +11,6 @@ export default function WhatsAppButton() {
     const timer = setTimeout(() => setShowTooltip(true), 5000);
     return () => clearTimeout(timer);
   }, []);
-
-  const whatsappUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(WHATSAPP_MESSAGE)}`;
 
   return (
     <div className="fixed bottom-20 lg:bottom-6 right-6 z-[100] flex flex-col items-end gap-3">
@@ -33,10 +30,10 @@ export default function WhatsAppButton() {
                 <X className="h-3 w-3 text-slate-600" />
               </button>
               <p className="text-sm text-slate-700 font-medium">
-                👋 Chat with us on WhatsApp!
+                Book your appointment online!
               </p>
               <p className="text-xs text-slate-500 mt-1">
-                Book appointments, ask questions, get treatment info.
+                Quick & easy booking — choose your slot and treatment.
               </p>
             </div>
             <div className="absolute -bottom-1 right-5 w-3 h-3 bg-white border-r border-b border-slate-100 rotate-45" />
@@ -45,14 +42,14 @@ export default function WhatsAppButton() {
       </AnimatePresence>
 
       <motion.a
-        href={whatsappUrl}
+        href={BOOKING_URL}
         target="_blank"
         rel="noopener noreferrer"
         whileHover={{ scale: 1.1 }}
         whileTap={{ scale: 0.95 }}
-        className="w-14 h-14 bg-green-500 rounded-full flex items-center justify-center shadow-xl shadow-green-500/30 hover:shadow-green-500/50 transition-all"
+        className="w-14 h-14 bg-primary-500 rounded-full flex items-center justify-center shadow-xl shadow-primary-500/30 hover:shadow-primary-500/50 transition-all"
       >
-        <MessageCircle className="h-7 w-7 text-white" />
+        <Calendar className="h-7 w-7 text-white" />
       </motion.a>
     </div>
   );
