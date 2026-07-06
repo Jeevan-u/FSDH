@@ -78,7 +78,7 @@ export const treatmentCategories = [
         shortDesc: 'Treat hives, rashes and skin allergies',
         description: 'Expert diagnosis and management of urticaria, skin allergies, and hypersensitivity reactions with personalized treatment plans.',
         benefits: ['Symptom relief', 'Identifies triggers', 'Prevents recurrence', 'Improves quality of life'],
-        image: '/images/doctorimage2.jpg',
+        image: '/images/urticaria%20and%20allergies.jpg',
         duration: '20-30 mins',
         sessions: 'As required',
       },
