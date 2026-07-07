@@ -11,7 +11,7 @@ import BeforeAfterSection from '../components/BeforeAfterSection';
 const stats = [
   { value: '5000+', label: 'Happy Patients' },
   { value: '95%+', label: 'Client Retention' },
-  { value: '5+', label: 'Years Experience' },
+  { value: '7+', label: 'Years Experience' },
   { value: '50+', label: 'Advanced Procedures' },
 ];
 
@@ -24,10 +24,10 @@ export default function Home() {
   return (
     <div>
       <Helmet>
-        <title>Prashali Skin Sciences | No. 1 Dermatologist in Nelamangala, Bangalore</title>
-        <meta name="description" content="Prashali Skin Sciences — No. 1 dermatologist in Nelamangala, Bangalore. Advanced dermatology, hair restoration, laser treatments, PRP therapy &amp; aesthetic procedures by Dr. Varsha R. Koti (MD, DNB)." />
-        <meta property="og:title" content="Prashali Skin Sciences | No. 1 Dermatologist in Nelamangala, Bangalore" />
-        <meta property="og:description" content="Prashali Skin Sciences — No. 1 dermatologist in Nelamangala, Bangalore. Expert skin, hair &amp; aesthetic care by Dr. Varsha R. Koti (MD, DNB)." />
+        <title>Prashali Skin Sciences | Advanced Dermatology &amp; Aesthetic Excellence in Nelamangala, Bangalore</title>
+        <meta name="description" content="Prashali Skin Sciences — Advanced Dermatology &amp; Aesthetic Excellence in Nelamangala, Bangalore. Expert skin, hair &amp; aesthetic care by Dr. Varsha R. Koti (MD, DNB)." />
+        <meta property="og:title" content="Prashali Skin Sciences | Advanced Dermatology &amp; Aesthetic Excellence in Nelamangala, Bangalore" />
+        <meta property="og:description" content="Prashali Skin Sciences — Advanced Dermatology &amp; Aesthetic Excellence in Nelamangala, Bangalore. Expert skin, hair &amp; aesthetic care by Dr. Varsha R. Koti (MD, DNB)." />
         <meta property="og:url" content="https://prashaliskinsciences.com/" />
         <link rel="canonical" href="https://prashaliskinsciences.com/" />
         <script type="application/ld+json">
@@ -38,7 +38,7 @@ export default function Home() {
                 "@type": "MedicalClinic",
                 "@id": "https://prashaliskinsciences.com/#clinic",
                 "name": "Prashali Skin Sciences",
-                "description": "No. 1 dermatology, cosmetology, trichology, laser and aesthetic clinic in Nelamangala, Bangalore.",
+                "description": "Advanced Dermatology &amp; Aesthetic Excellence clinic in Nelamangala, Bangalore.",
                 "url": "https://prashaliskinsciences.com",
                 "telephone": "+919606042223",
                 "email": "prashaliskinsciences@gmail.com",
@@ -65,7 +65,7 @@ export default function Home() {
                 "aggregateRating": {
                   "@type": "AggregateRating",
                   "ratingValue": "4.9",
-                  "reviewCount": "127",
+                  "reviewCount": "100+",
                   "bestRating": "5"
                 },
                 "physician": {
@@ -87,35 +87,26 @@ export default function Home() {
       </Helmet>
 
       {/* ===== HERO ===== */}
-      <section className="relative min-h-screen flex items-center overflow-hidden">
-        <div className="absolute inset-0 z-0">
-          <img
-            src="/images/reception.jpg"
-            alt=""
-            className="w-full h-full object-cover"
-          />
-          <div className="absolute inset-0 bg-gradient-to-r from-primary-500/95 via-primary-500/90 to-primary-500/85" />
-        </div>
-        
-
+      <section className="relative min-h-[50vh] flex items-center overflow-hidden bg-cream">
         <div className="relative z-20 w-full">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 sm:py-32">
-            <div className="max-w-3xl">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20">
+            <div className="grid md:grid-cols-2 gap-8 items-start">
+              <div className="max-w-3xl order-2 md:order-1 pt-6 md:pt-10">
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5 }}
-                className="inline-flex items-center gap-2 px-4 py-1.5 bg-accent-500/20 backdrop-blur-md rounded-full border border-accent-500/30 text-accent-200 text-xs font-semibold mb-6"
+                className="inline-flex items-center gap-2 px-4 py-1.5 bg-accent-500/10 backdrop-blur-md rounded-full border border-accent-500/20 text-accent-600 text-xs font-semibold mb-6"
               >
                 <Award className="h-3.5 w-3.5" />
-                No. 1 Dermatologist in Nelamangala
+                Advanced Dermatology &amp; Aesthetic Excellence in Nelamangala
               </motion.div>
 
               <motion.h1
                 initial={{ opacity: 0, y: 30 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: 0.1 }}
-                className="text-4xl sm:text-5xl md:text-7xl font-bold text-white leading-[1.1] mb-5 font-display"
+                className="text-4xl sm:text-5xl md:text-7xl font-bold text-primary-500 leading-[1.1] mb-5 font-display"
               >
                 Expert Dermatology
                 <br />
@@ -126,9 +117,9 @@ export default function Home() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: 0.2 }}
-                className="text-base sm:text-lg text-white/70 leading-relaxed mb-8 max-w-xl"
+                className="text-base sm:text-lg text-primary-500/70 leading-relaxed mb-8 max-w-xl"
               >
-                Science-backed skin, hair, and aesthetic treatments by <strong className="text-white/90">Dr. Varsha R. Koti</strong> — bringing advanced dermatology with personalized care to Nelamangala.
+                Science-backed skin, hair, and aesthetic treatments by <strong className="text-primary-500">Dr. Varsha R. Koti</strong> — bringing advanced dermatology with personalized care to Nelamangala.
               </motion.p>
 
               <motion.div
@@ -148,7 +139,7 @@ export default function Home() {
                   href="https://hplix.in/HPL191347"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center justify-center gap-2 px-8 py-3.5 border border-white/25 text-white/90 rounded-full font-semibold hover:bg-white/10 hover:border-white/50 transition-all"
+                  className="inline-flex items-center justify-center gap-2 px-8 py-3.5 border border-primary-500/25 text-primary-500/90 rounded-full font-semibold hover:bg-primary-500/10 hover:border-primary-500/50 transition-all"
                 >
                   <Calendar className="h-4 w-4" />
                   Book Online
@@ -165,15 +156,107 @@ export default function Home() {
                   <div key={i} className="flex items-center gap-2">
                     <div className="w-1 h-8 bg-accent-500/60 rounded-full" />
                     <div>
-                      <div className="text-lg sm:text-xl font-bold text-white font-display leading-none">{stat.value}</div>
-                      <div className="text-[10px] text-white/60 tracking-wide">{stat.label}</div>
+                      <div className="text-lg sm:text-xl font-bold text-primary-500 font-display leading-none">{stat.value}</div>
+                      <div className="text-[10px] text-primary-500/60 tracking-wide">{stat.label}</div>
                     </div>
                   </div>
                 ))}
               </motion.div>
             </div>
+            <div className="order-1 md:order-2 flex flex-col justify-between items-center h-full self-stretch">
+              <div className="relative flex flex-col items-center mt-20 md:mt-24">
+                {/* Decorative outer ring */}
+                <div className="absolute inset-0 flex items-center justify-center">
+                  <div className="w-56 h-56 md:w-72 md:h-72 rounded-full border border-accent-500/20" />
+                </div>
+                {/* Animated rotating ring - time machine effect */}
+                <div className="absolute inset-0 flex items-center justify-center animate-spin [animation-duration:8s]">
+                  <div className="w-52 h-52 md:w-64 md:h-64 rounded-full border-2 border-dashed border-accent-500/60" />
+                </div>
+                <div className="absolute inset-0 flex items-center justify-center animate-spin [animation-duration:12s] [animation-direction:reverse]">
+                  <div className="w-48 h-48 md:w-60 md:h-60 rounded-full border border-dashed border-accent-500/50" />
+                </div>
+                <div className="absolute inset-0 flex items-center justify-center">
+                  <div className="w-44 h-44 md:w-56 md:h-56 rounded-full border border-accent-500/10" />
+                </div>
+                {/* Horizontal lines */}
+                <div className="absolute top-1/2 -translate-y-1/2 left-0 w-full flex justify-between pointer-events-none">
+                  <div className="w-8 md:w-12 h-px bg-accent-500/30" />
+                  <div className="w-8 md:w-12 h-px bg-accent-500/30" />
+                </div>
+                {/* Top/Bottom dots */}
+                <div className="absolute top-4 md:top-6 left-1/2 -translate-x-1/2 w-2 h-2 rounded-full bg-accent-500/40" />
+                <div className="absolute bottom-4 md:bottom-6 left-1/2 -translate-x-1/2 w-2 h-2 rounded-full bg-accent-500/40" />
+                {/* Left/Right dots */}
+                <div className="absolute top-1/2 -translate-y-1/2 left-4 md:left-6 w-2 h-2 rounded-full bg-accent-500/40" />
+                <div className="absolute top-1/2 -translate-y-1/2 right-4 md:right-6 w-2 h-2 rounded-full bg-accent-500/40" />
+
+                <div className="relative flex flex-col items-center gap-2 p-8 md:p-10">
+                  <div className="text-center">
+                    <h2 className="text-3xl md:text-5xl font-bold font-display text-primary-500 tracking-wide leading-none">
+                      PRASHALI
+                    </h2>
+                    <p className="text-base md:text-lg font-medium tracking-[0.25em] uppercase text-accent-500 mt-1">
+                      Skin Sciences
+                    </p>
+                  </div>
+                </div>
+
+                {/* Bottom accent bar */}
+                <div className="w-16 md:w-24 h-0.5 bg-gradient-to-r from-transparent via-accent-500/60 to-transparent mt-1" />
+              </div>
+
+              {/* Middle decorative filler */}
+              <div className="flex flex-col items-center gap-6 my-4">
+                {/* Left-right bracket pair */}
+                <div className="flex items-center gap-12">
+                  <div className="w-3 h-3 border-l-2 border-b-2 border-accent-500/20 -rotate-45" />
+                  <div className="w-3 h-3 border-r-2 border-b-2 border-accent-500/20 rotate-45" />
+                </div>
+                {/* Diamond row */}
+                <div className="flex items-center gap-8">
+                  <div className="w-1 h-1 rounded-full bg-accent-500/20" />
+                  <div className="w-1 h-1 rounded-full bg-accent-500/20" />
+                  <div className="w-1.5 h-1.5 rotate-45 border border-accent-500/30" />
+                  <div className="w-1 h-1 rounded-full bg-accent-500/20" />
+                  <div className="w-1 h-1 rounded-full bg-accent-500/20" />
+                </div>
+                {/* Vertical accent line */}
+                <div className="w-px h-8 bg-gradient-to-b from-accent-500/40 via-accent-500/20 to-transparent" />
+                {/* Small bracket pair */}
+                <div className="flex items-center gap-6">
+                  <div className="flex items-center gap-1">
+                    <div className="w-4 h-px bg-accent-500/20" />
+                    <div className="w-1 h-1 rotate-45 border border-accent-500/20" />
+                  </div>
+                  <div className="w-2 h-2 rounded-full border border-accent-500/20" />
+                  <div className="flex items-center gap-1">
+                    <div className="w-1 h-1 rotate-45 border border-accent-500/20" />
+                    <div className="w-4 h-px bg-accent-500/20" />
+                  </div>
+                </div>
+              </div>
+
+              {/* Services below the circle */}
+              <div className="flex items-center gap-3 w-full max-w-[200px] my-4">
+                <div className="flex-1 h-px bg-gradient-to-r from-transparent via-accent-500/40 to-transparent" />
+                <div className="w-1.5 h-1.5 rotate-45 bg-accent-500/60" />
+                <div className="flex-1 h-px bg-gradient-to-r from-transparent via-accent-500/40 to-transparent" />
+              </div>
+              <div className="flex items-center justify-center gap-0 whitespace-nowrap">
+                {['SKIN', 'HAIR', 'DERMATOSURGERY', 'LASER & AESTHETICS'].map((item, i) => (
+                  <span key={item} className="flex items-center">
+                    <span className="text-[10px] md:text-xs font-semibold tracking-[0.15em] text-primary-500/70 px-2">
+                      {item}
+                    </span>
+                    {i < 3 && <span className="text-accent-500/50 text-xs px-1">|</span>}
+                  </span>
+                ))}
+              </div>
+            </div>
           </div>
         </div>
+      </div>
       </section>
 
       {/* ===== TRUST + ABOUT (merged) ===== */}
@@ -347,9 +430,9 @@ export default function Home() {
           <div className="max-w-7xl mx-auto px-4">
             <div className="flex flex-wrap items-center justify-center gap-x-12 gap-y-4">
               {[
-                { label: 'No. 1 Dermatologist', sub: 'in Nelamangala' },
+                { label: 'Expert Dermatologists', sub: 'Evidence-Based Care' },
                 { label: '5000+ Patients', sub: 'Trusted Care' },
-                { label: '4.9 Stars', sub: '127+ Google Reviews' },
+                { label: '4.9 Stars', sub: '100+ Google Reviews' },
                 { label: 'Award Winning', sub: 'Dermatology Care' },
               ].map((item, i) => (
                 <motion.div
@@ -390,7 +473,7 @@ export default function Home() {
               Ready to Transform Your Skin?
             </h2>
             <p className="text-white/80 max-w-xl mx-auto mb-8">
-              Take the first step toward healthier skin and hair. Schedule your consultation with the No. 1 dermatologist in Nelamangala.
+              Take the first step toward healthier skin and hair. Schedule your consultation with Advanced Dermatology &amp; Aesthetic Excellence in Nelamangala.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <Link to="/appointment" className="inline-flex items-center gap-2 px-8 py-3.5 bg-accent-500 text-primary-500 rounded-full font-semibold hover:bg-accent-400 transition-all shadow-lg shadow-black/20">

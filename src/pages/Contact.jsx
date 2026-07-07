@@ -29,10 +29,10 @@ export default function Contact() {
   return (
     <div className="pb-16">
       <Helmet>
-        <title>Contact Us | No. 1 Dermatologist in Nelamangala Bangalore</title>
-        <meta name="description" content="Contact Prashali Skin Sciences — the No. 1 dermatologist in Nelamangala, Bangalore. Call +91 9606042223, email prashaliskinsciences@gmail.com, or visit our clinic near Subash Nagar." />
+        <title>Contact Us | Expert dermatologists delivering evidence-based skin, hair and nail treatments with personalized care and advanced technology.</title>
+        <meta name="description" content="Contact Prashali Skin Sciences — Advanced Dermatology &amp; Aesthetic Excellence in Nelamangala, Bangalore. Call +91 9606042223, email prashaliskinsciences@gmail.com, or visit our clinic near Subash Nagar." />
         <meta property="og:title" content="Contact Us | Prashali Skin Sciences Nelamangala" />
-        <meta property="og:description" content="Contact Prashali Skin Sciences — the No. 1 dermatologist in Nelamangala, Bangalore. Visit our clinic or call us for expert skin, hair &amp; aesthetic care." />
+        <meta property="og:description" content="Contact Prashali Skin Sciences — Advanced Dermatology &amp; Aesthetic Excellence in Nelamangala, Bangalore. Visit our clinic or call us for expert skin, hair &amp; aesthetic care." />
         <meta property="og:url" content="https://prashaliskinsciences.com/contact" />
         <link rel="canonical" href="https://prashaliskinsciences.com/contact" />
         <script type="application/ld+json">
@@ -113,7 +113,7 @@ export default function Contact() {
                 WhatsApp
               </a>
               <a
-                href="https://www.google.com/maps/place/Prashali+Skin+Sciences/@13.096895,77.4021306"
+                href="https://maps.app.goo.gl/1itRqEPW4ksugJDdA"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center gap-2 w-full py-3.5 border-2 border-primary-500 text-primary-600 rounded-full font-semibold hover:bg-primary-50 transition-all"
@@ -175,15 +175,16 @@ export default function Contact() {
           </div>
         </div>
 
-        <div className="mt-8 rounded-2xl overflow-hidden shadow-md border border-slate-100 h-56">
+        <div className="mt-8 rounded-2xl overflow-hidden shadow-md border border-slate-100 h-72">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.1!2d77.4021306!3d13.096895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae2536ebbdf061%3A0x6e2101f4aec6a125!2sPrashali%20Skin%20Sciences!5e0!3m2!1sen!2sin!4v1"
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d200!2d77.4021306!3d13.096895!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae2536ebbdf061%3A0x6e2101f4aec6a125!2sPrashali+Skin+Sciences!5e1!3m2!1sen!2sin!4v1"
             width="100%"
             height="100%"
             style={{ border: 0 }}
             allowFullScreen
             loading="lazy"
-            title="Prashali Skin Sciences Location"
+            title="Prashali Skin Sciences Location - Nelamangala Bangalore"
+            allow="geolocation"
           />
         </div>
       </div>

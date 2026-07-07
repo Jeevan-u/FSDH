@@ -65,4 +65,4 @@ export const testimonials = [
 ];
 
 export const googleRating = 4.9;
-export const totalReviews = 127;
+export const totalReviews = '100+';

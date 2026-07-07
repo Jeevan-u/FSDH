@@ -30,10 +30,10 @@ export default function FAQ() {
   return (
     <div className="pb-24">
       <Helmet>
-        <title>FAQ | No. 1 Dermatologist in Nelamangala Bangalore</title>
-        <meta name="description" content="Find answers to frequently asked questions about dermatology treatments, hair restoration, laser procedures, and skin care at Prashali Skin Sciences — the No. 1 dermatologist in Nelamangala, Bangalore." />
+        <title>FAQ | Expert dermatologists delivering evidence-based skin, hair and nail treatments with personalized care and advanced technology.</title>
+        <meta name="description" content="Find answers to frequently asked questions about dermatology treatments, hair restoration, laser procedures, and skin care at Prashali Skin Sciences — Advanced Dermatology &amp; Aesthetic Excellence in Nelamangala, Bangalore." />
         <meta property="og:title" content="FAQ | Prashali Skin Sciences Nelamangala" />
-        <meta property="og:description" content="Find answers to frequently asked questions about dermatology and aesthetic treatments at Prashali Skin Sciences — the No. 1 dermatologist in Nelamangala, Bangalore." />
+        <meta property="og:description" content="Find answers to frequently asked questions about dermatology and aesthetic treatments at Prashali Skin Sciences — Advanced Dermatology &amp; Aesthetic Excellence in Nelamangala, Bangalore." />
         <meta property="og:url" content="https://prashaliskinsciences.com/faq" />
         <link rel="canonical" href="https://prashaliskinsciences.com/faq" />
         <script type="application/ld+json">

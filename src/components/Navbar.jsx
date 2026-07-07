@@ -27,10 +27,10 @@ export default function Navbar() {
 
   return (
     <nav className={cn(
-      "fixed top-0 left-0 right-0 z-50 transition-all duration-500",
+      "fixed top-0 left-0 right-0 z-50 transition-all duration-500 border-b border-sage-200/30",
       scrolled
-        ? "bg-white/95 backdrop-blur-xl shadow-lg shadow-black/5"
-        : "bg-transparent"
+        ? "bg-cream/95 backdrop-blur-xl shadow-lg shadow-black/5"
+        : "bg-cream/95 backdrop-blur-md"
     )}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
@@ -42,16 +42,10 @@ export default function Navbar() {
               className="w-10 h-10 rounded-xl object-contain transition-transform group-hover:scale-105 duration-300"
             />
             <div className="leading-tight">
-              <h1 className={cn(
-                "text-sm font-bold tracking-wide font-display transition-colors duration-300",
-                scrolled ? "text-primary-500" : "text-white"
-              )}>
+              <h1 className="text-sm font-bold tracking-wide font-display text-primary-500">
                 PRASHALI
               </h1>
-              <p className={cn(
-                "text-[10px] font-medium tracking-widest uppercase transition-colors duration-300",
-                scrolled ? "text-accent-500" : "text-accent-300"
-              )}>
+              <p className="text-[10px] font-medium tracking-widest uppercase text-accent-500">
                 Skin Sciences
               </p>
             </div>
@@ -65,10 +59,8 @@ export default function Navbar() {
                 className={cn(
                   "px-4 py-2 rounded-full text-sm font-medium transition-all duration-200",
                   location.pathname === link.path
-                    ? scrolled ? "bg-primary-50 text-primary-600" : "bg-white/20 text-white"
-                    : scrolled
-                      ? "text-slate-600 hover:text-primary-600 hover:bg-primary-50"
-                      : "text-white/80 hover:text-white hover:bg-white/10"
+                    ? "bg-primary-50 text-primary-600"
+                    : "text-slate-600 hover:text-primary-600 hover:bg-primary-50"
                 )}
               >
                 {link.name}
@@ -79,12 +71,7 @@ export default function Navbar() {
           <div className="hidden lg:flex items-center gap-3">
             <a
               href="tel:+919606042223"
-              className={cn(
-                "flex items-center gap-2 px-4 py-2 rounded-full text-sm font-semibold transition-all",
-                scrolled
-                  ? "text-primary-600 bg-primary-50 hover:bg-primary-100"
-                  : "text-white bg-white/20 hover:bg-white/30"
-              )}
+              className="flex items-center gap-2 px-4 py-2 rounded-full text-sm font-semibold transition-all text-primary-600 bg-primary-50 hover:bg-primary-100"
             >
               <Phone className="h-4 w-4" />
               +91 9606042223
@@ -100,10 +87,7 @@ export default function Navbar() {
 
           <button
             onClick={() => setIsOpen(!isOpen)}
-            className={cn(
-              "lg:hidden p-2 rounded-lg transition",
-              scrolled ? "text-slate-700 hover:bg-slate-100" : "text-white hover:bg-white/10"
-            )}
+            className="lg:hidden p-2 rounded-lg transition text-slate-700 hover:bg-slate-100"
           >
             {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
           </button>
@@ -122,7 +106,7 @@ export default function Navbar() {
             <div className="px-4 pt-2 pb-6 space-y-1">
               <div className="flex items-center gap-2 px-4 py-2 mb-2 bg-accent-50 rounded-lg">
                 <Award className="h-4 w-4 text-accent-500" />
-                <span className="text-xs font-semibold text-accent-700">No. 1 Dermatologist in Nelamangala</span>
+                <span className="text-xs font-semibold text-accent-700">Expert dermatologists delivering evidence-based skin, hair and nail treatments with personalized care and advanced technology.</span>
               </div>
               {navLinks.map((link) => (
                 <Link

@@ -7,10 +7,10 @@ export default function Appointment() {
   return (
     <div className="pb-24">
       <Helmet>
-        <title>Book Appointment | No. 1 Dermatologist in Nelamangala Bangalore</title>
-        <meta name="description" content="Book a consultation with Dr. Varsha R. Koti (MD, DNB) — the No. 1 dermatologist in Nelamangala, Bangalore. Easy online booking for dermatology, hair, and aesthetic treatments at Prashali Skin Sciences." />
+        <title>Book Appointment | Expert dermatologists delivering evidence-based skin, hair and nail treatments with personalized care and advanced technology.</title>
+        <meta name="description" content="Book a consultation with Dr. Varsha R. Koti (MD, DNB) — Advanced Dermatology &amp; Aesthetic Excellence in Nelamangala, Bangalore. Easy online booking for dermatology, hair, and aesthetic treatments at Prashali Skin Sciences." />
         <meta property="og:title" content="Book Appointment | Prashali Skin Sciences Nelamangala" />
-        <meta property="og:description" content="Book a consultation with Dr. Varsha R. Koti — the No. 1 dermatologist in Nelamangala, Bangalore. Easy online booking for skin, hair &amp; aesthetic treatments." />
+        <meta property="og:description" content="Book a consultation with Dr. Varsha R. Koti — Advanced Dermatology &amp; Aesthetic Excellence in Nelamangala, Bangalore. Easy online booking for skin, hair &amp; aesthetic treatments." />
         <meta property="og:url" content="https://prashaliskinsciences.com/appointment" />
         <link rel="canonical" href="https://prashaliskinsciences.com/appointment" />
         <script type="application/ld+json">
@@ -106,7 +106,7 @@ export default function Appointment() {
                   <Star key={i} className="h-4 w-4 fill-accent-500 text-accent-500" />
                 ))}
               </div>
-              <p className="text-sm font-semibold text-slate-900">4.9 Stars • 127+ Reviews</p>
+              <p className="text-sm font-semibold text-slate-900">4.9 Stars • 100+ Reviews</p>
               <p className="text-xs text-slate-500 mt-1">Trusted by patients across Nelamangala</p>
             </div>
           </div>

@@ -6,10 +6,10 @@ export default function Gallery() {
   return (
     <div className="pb-24">
       <Helmet>
-        <title>Gallery | No. 1 Dermatologist in Nelamangala Bangalore</title>
-        <meta name="description" content="Take a visual tour of Prashali Skin Sciences — the No. 1 dermatologist in Nelamangala, Bangalore. View our advanced equipment, treatment rooms, and patient results gallery." />
-        <meta property="og:title" content="Gallery | No. 1 Dermatologist in Nelamangala Bangalore" />
-        <meta property="og:description" content="Take a visual tour of Prashali Skin Sciences — the No. 1 dermatologist in Nelamangala, Bangalore. View our advanced equipment, treatment rooms, and results." />
+        <title>Gallery | Expert dermatologists delivering evidence-based skin, hair and nail treatments with personalized care and advanced technology.</title>
+        <meta name="description" content="Take a visual tour of Prashali Skin Sciences — Advanced Dermatology &amp; Aesthetic Excellence in Nelamangala, Bangalore. View our advanced equipment, treatment rooms, and patient results gallery." />
+        <meta property="og:title" content="Gallery | Expert dermatologists delivering evidence-based skin, hair and nail treatments with personalized care and advanced technology." />
+        <meta property="og:description" content="Take a visual tour of Prashali Skin Sciences — Advanced Dermatology &amp; Aesthetic Excellence in Nelamangala, Bangalore. View our advanced equipment, treatment rooms, and results." />
         <meta property="og:url" content="https://prashaliskinsciences.com/gallery" />
         <link rel="canonical" href="https://prashaliskinsciences.com/gallery" />
         <script type="application/ld+json">

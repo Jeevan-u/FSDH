@@ -26,16 +26,16 @@ export default function TreatmentDetail() {
 
   const benefits = treatment.benefits || [];
 
-  const title = treatment ? `${treatment.title} | No. 1 Dermatologist in Nelamangala` : 'Treatment | Prashali Skin Sciences';
-  const desc = treatment ? `${treatment.shortDesc} - ${treatment.description?.slice(0, 150)}. No. 1 dermatologist in Nelamangala, Bangalore.` : 'Treatment information at Prashali Skin Sciences — No. 1 dermatologist in Nelamangala, Bangalore.';
+  const title = treatment ? `${treatment.title} | Expert dermatologists delivering evidence-based skin, hair and nail treatments with personalized care and advanced technology.` : 'Treatment | Prashali Skin Sciences';
+  const desc = treatment ? `${treatment.shortDesc} - ${treatment.description?.slice(0, 150)}. Advanced Dermatology &amp; Aesthetic Excellence in Nelamangala, Bangalore.` : 'Treatment information at Prashali Skin Sciences — Advanced Dermatology &amp; Aesthetic Excellence in Nelamangala, Bangalore.';
 
   return (
     <div className="pt-24 pb-24">
       <Helmet>
         <title>{title}</title>
         <meta name="description" content={desc} />
-        <meta property="og:title" content={`${treatment?.title || 'Treatment'} | No. 1 Dermatologist in Nelamangala`} />
-        <meta property="og:description" content={`${treatment?.shortDesc || 'Treatment'} — No. 1 dermatologist in Nelamangala, Bangalore. Book your consultation at Prashali Skin Sciences.`} />
+        <meta property="og:title" content={`${treatment?.title || 'Treatment'} | Expert dermatologists delivering evidence-based skin, hair and nail treatments with personalized care and advanced technology.`} />
+        <meta property="og:description" content={`${treatment?.shortDesc || 'Treatment'} — Advanced Dermatology &amp; Aesthetic Excellence in Nelamangala, Bangalore. Book your consultation at Prashali Skin Sciences.`} />
         <meta property="og:url" content={`https://prashaliskinsciences.com/${slug}`} />
         <link rel="canonical" href={`https://prashaliskinsciences.com/${slug}`} />
         <script type="application/ld+json">

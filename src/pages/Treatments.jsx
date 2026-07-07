@@ -18,10 +18,10 @@ export default function Treatments() {
   return (
     <div className="pb-24">
       <Helmet>
-        <title>Dermatology, Hair & Laser Treatments | No. 1 Dermatologist Nelamangala</title>
-        <meta name="description" content="Explore 30+ dermatology, hair restoration, laser &amp; aesthetic treatments at Prashali Skin Sciences in Nelamangala, Bangalore — the No. 1 dermatologist in Nelamangala. Acne, PRP, HydraFacial, laser hair reduction &amp; more." />
+        <title>Dermatology, Hair & Laser Treatments | Expert dermatologists delivering evidence-based skin, hair and nail treatments with personalized care and advanced technology.</title>
+        <meta name="description" content="Explore 30+ dermatology, hair restoration, laser &amp; aesthetic treatments at Prashali Skin Sciences in Nelamangala, Bangalore — Advanced Dermatology &amp; Aesthetic Excellence in Nelamangala. Acne, PRP, HydraFacial, laser hair reduction &amp; more." />
         <meta property="og:title" content="Dermatology, Hair & Laser Treatments | Prashali Skin Sciences Nelamangala" />
-        <meta property="og:description" content="Explore 30+ dermatology, hair restoration, laser &amp; aesthetic treatments at Prashali Skin Sciences — the No. 1 dermatologist in Nelamangala, Bangalore." />
+        <meta property="og:description" content="Explore 30+ dermatology, hair restoration, laser &amp; aesthetic treatments at Prashali Skin Sciences — Advanced Dermatology &amp; Aesthetic Excellence in Nelamangala, Bangalore." />
         <meta property="og:url" content="https://prashaliskinsciences.com/treatments" />
         <link rel="canonical" href="https://prashaliskinsciences.com/treatments" />
         <script type="application/ld+json">

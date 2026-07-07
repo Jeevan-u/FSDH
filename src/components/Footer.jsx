@@ -30,8 +30,8 @@ export default function Footer() {
         {/* Trust Strip */}
         <div className="flex flex-wrap items-center justify-center gap-6 md:gap-10 mb-12 pb-8 border-b border-white/10">
           {[
-            { icon: Award, text: 'No. 1 Dermatologist in Nelamangala' },
-            { icon: Star, text: '4.9 Stars • 127+ Reviews' },
+            { icon: Award, text: 'Expert dermatologists delivering evidence-based skin, hair and nail treatments with personalized care and advanced technology.' },
+            { icon: Star, text: '4.9 Stars • 100+ Reviews' },
             { icon: Shield, text: 'MD, DNB Certified' },
           ].map((item, i) => (
             <div key={i} className="flex items-center gap-2 text-white/85 text-sm">
@@ -51,12 +51,12 @@ export default function Footer() {
                 className="w-12 h-12 rounded-xl object-contain bg-white/10 p-1"
               />
               <div>
-                <h3 className="text-lg font-bold font-display">PRASHALI</h3>
+                <h3 className="text-xl font-bold font-display text-accent-400">PRASHALI</h3>
                 <p className="text-xs text-accent-400 tracking-widest uppercase font-medium">Skin Sciences</p>
               </div>
             </div>
             <p className="text-sm text-white/85 leading-relaxed">
-              The <strong className="text-accent-400">No. 1 dermatology clinic in Nelamangala</strong>, Bangalore. Science-backed skin, hair &amp; aesthetic care with advanced technology and personalized treatment plans led by Dr. Varsha R. Koti (MD, DNB).
+              <strong className="text-accent-400">Advanced Dermatology &amp; Aesthetic Excellence in Nelamangala</strong>, Bangalore. Science-backed skin, hair &amp; aesthetic care with advanced technology and personalized treatment plans led by Dr. Varsha R. Koti (MD, DNB).
             </p>
             <div className="flex gap-3">
               <a href="https://www.instagram.com/prashali_skin_sciences" target="_blank" rel="noopener noreferrer" className="w-9 h-9 bg-white/10 rounded-full flex items-center justify-center hover:bg-accent-500 hover:text-primary-500 transition-all">
@@ -106,7 +106,7 @@ export default function Footer() {
                     Bengaluru, Karnataka 562123
                   </span>
                   <a
-                    href="https://www.google.com/maps/place/Prashali+Skin+Sciences/@13.096895,77.4021306"
+                    href="https://maps.app.goo.gl/1itRqEPW4ksugJDdA"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-accent-400 text-xs mt-1 block hover:underline"

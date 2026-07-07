@@ -8,10 +8,10 @@ export default function About() {
   return (
     <div className="pb-24">
       <Helmet>
-        <title>About Dr. Varsha R. Koti | No. 1 Dermatologist in Nelamangala</title>
-        <meta name="description" content="Meet Dr. Varsha R. Koti (MBBS, MD, DNB) — the No. 1 dermatologist in Nelamangala, Bangalore. Expert in clinical dermatology, dermatosurgery, lasers &amp; aesthetic treatments at Prashali Skin Sciences." />
-        <meta property="og:title" content="About Dr. Varsha R. Koti | No. 1 Dermatologist in Nelamangala" />
-        <meta property="og:description" content="Meet Dr. Varsha R. Koti (MBBS, MD, DNB) — the No. 1 dermatologist in Nelamangala, Bangalore. Expert in clinical dermatology, dermatosurgery, lasers &amp; aesthetic treatments." />
+        <title>About Dr. Varsha R. Koti | Expert dermatologists delivering evidence-based skin, hair and nail treatments with personalized care and advanced technology.</title>
+        <meta name="description" content="Meet Dr. Varsha R. Koti (MBBS, MD, DNB) — Advanced Dermatology &amp; Aesthetic Excellence in Nelamangala, Bangalore. Expert in clinical dermatology, dermatosurgery, lasers &amp; aesthetic treatments at Prashali Skin Sciences." />
+        <meta property="og:title" content="About Dr. Varsha R. Koti | Expert dermatologists delivering evidence-based skin, hair and nail treatments with personalized care and advanced technology." />
+        <meta property="og:description" content="Meet Dr. Varsha R. Koti (MBBS, MD, DNB) — Advanced Dermatology &amp; Aesthetic Excellence in Nelamangala, Bangalore. Expert in clinical dermatology, dermatosurgery, lasers &amp; aesthetic treatments." />
         <meta property="og:url" content="https://prashaliskinsciences.com/about" />
         <link rel="canonical" href="https://prashaliskinsciences.com/about" />
         <script type="application/ld+json">
@@ -69,7 +69,7 @@ export default function About() {
               <Star className="h-4 w-4 fill-accent-500 text-accent-500" />
               <Star className="h-4 w-4 fill-accent-500 text-accent-500" />
               <span className="ml-1 font-semibold text-slate-700">4.9</span>
-              <span className="text-slate-400">(127+ reviews)</span>
+              <span className="text-slate-400">(100+ reviews)</span>
             </div>
           </motion.div>
 

@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700;800&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@300;400;500;600&display=swap');
 
 @import "tailwindcss";
 
@@ -40,9 +39,10 @@
   --color-cream: #faf7f2;
   --color-warm-white: #fff9f4;
   --color-rose: #d4887a;
+  --color-gold-light: #e8d5b0;
 
-  --font-display: 'Playfair Display', serif;
-  --font-body: 'Inter', sans-serif;
+  --font-display: 'Cormorant Garamond', serif;
+  --font-body: 'DM Sans', sans-serif;
 }
 
 @layer base {
@@ -95,12 +95,14 @@
   }
 
   .gradient-primary {
-    background: linear-gradient(135deg, #1a2420 0%, #4a6b4d 50%, #1a2420 100%);
+    background: linear-gradient(135deg, #0D1F1F 0%, #1A4040 50%, #285A5A 100%);
   }
 
   .gradient-gold {
     background: linear-gradient(135deg, #c9a96e 0%, #e0c788 50%, #c9a96e 100%);
   }
+
+
 
   .gradient-hero {
     background: linear-gradient(135deg, #1a2420 0%, #4a6b4d 40%, #faf7f2 100%);

@@ -9,10 +9,10 @@ export default function Testimonials() {
   return (
     <div className="pb-24">
       <Helmet>
-        <title>Patient Testimonials | No. 1 Dermatologist in Nelamangala</title>
-        <meta name="description" content="Read real patient reviews and testimonials for Prashali Skin Sciences — the No. 1 dermatologist in Nelamangala, Bangalore. 4.9 stars from 127+ verified Google reviews." />
-        <meta property="og:title" content="Patient Testimonials | No. 1 Dermatologist in Nelamangala" />
-        <meta property="og:description" content="Read real patient reviews for Prashali Skin Sciences — the No. 1 dermatologist in Nelamangala, Bangalore. 4.9 stars from 127+ verified Google reviews." />
+        <title>Patient Testimonials | Expert dermatologists delivering evidence-based skin, hair and nail treatments with personalized care and advanced technology.</title>
+        <meta name="description" content="Read real patient reviews and testimonials for Prashali Skin Sciences — Advanced Dermatology &amp; Aesthetic Excellence in Nelamangala, Bangalore. 4.9 stars from 100+ verified Google reviews." />
+        <meta property="og:title" content="Patient Testimonials | Expert dermatologists delivering evidence-based skin, hair and nail treatments with personalized care and advanced technology." />
+        <meta property="og:description" content="Read real patient reviews for Prashali Skin Sciences — Advanced Dermatology &amp; Aesthetic Excellence in Nelamangala, Bangalore. 4.9 stars from 100+ verified Google reviews." />
         <meta property="og:url" content="https://prashaliskinsciences.com/testimonials" />
         <link rel="canonical" href="https://prashaliskinsciences.com/testimonials" />
         <script type="application/ld+json">
