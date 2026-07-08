@@ -4,8 +4,8 @@ export const doctor = {
   qualifications: 'MBBS, MD (DVL), DNB, FRGUHS - Dermatosurgery',
   title: 'Consultant Dermatologist & Cosmetologist',
   clinic: 'Prashali Skin Sciences',
-  bio: `Dr. Varsha R. Koti is a board certified Consultant Dermatologist with over 5+ years of experience specializing in clinical dermatology, dermatosurgery, lasers and aesthetic dermatology. She is dedicated to providing evidence-based, personalized care for every patient, combining medical expertise with cutting-edge technology to deliver natural-looking results.`,
-  experience: '5+ Years',
+  bio: `Dr. Varsha R. Koti is a board certified Consultant Dermatologist with over 7+ years of experience specializing in clinical dermatology, dermatosurgery, lasers and aesthetic dermatology. She is dedicated to providing evidence-based, personalized care for every patient, combining medical expertise with cutting-edge technology to deliver natural-looking results.`,
+  experience: '7+ Years',
   specializations: [
     'Clinical Dermatology',
     'Dermatosurgery',
