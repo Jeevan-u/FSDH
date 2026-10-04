@@ -30,7 +30,7 @@ export default function Footer() {
         {/* Trust Strip */}
         <div className="flex flex-wrap items-center justify-center gap-6 md:gap-10 mb-12 pb-8 border-b border-white/10">
           {[
-            { icon: Award, text: 'Expert dermatologists delivering evidence-based skin, hair and nail treatments with personalized care and advanced technology.' },
+            { icon: Award, text: 'MD, DNB Dermatologist' },
             { icon: Star, text: '4.9 Stars • 100+ Reviews' },
             { icon: Shield, text: 'MD, DNB Certified' },
           ].map((item, i) => (
@@ -56,7 +56,7 @@ export default function Footer() {
               </div>
             </div>
             <p className="text-sm text-white/85 leading-relaxed">
-              <strong className="text-accent-400">Advanced Dermatology &amp; Aesthetic Excellence in Nelamangala</strong>, Bangalore. Science-backed skin, hair &amp; aesthetic care with advanced technology and personalized treatment plans led by Dr. Varsha R. Koti (MD, DNB).
+              <strong className="text-accent-400">Prashali Skin Sciences</strong> — dermatology, hair &amp; aesthetic treatments in Nelamangala. Run by Dr. Varsha R. Koti (MD, DNB).
             </p>
             <div className="flex gap-3">
               <a href="https://www.instagram.com/prashali_skin_sciences" target="_blank" rel="noopener noreferrer" className="w-9 h-9 bg-white/10 rounded-full flex items-center justify-center hover:bg-accent-500 hover:text-primary-500 transition-all">

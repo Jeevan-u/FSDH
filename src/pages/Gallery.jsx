@@ -6,10 +6,10 @@ export default function Gallery() {
   return (
     <div className="pb-24">
       <Helmet>
-        <title>Gallery | Expert dermatologists delivering evidence-based skin, hair and nail treatments with personalized care and advanced technology.</title>
-        <meta name="description" content="Take a visual tour of Prashali Skin Sciences — Advanced Dermatology &amp; Aesthetic Excellence in Nelamangala, Bangalore. View our advanced equipment, treatment rooms, and patient results gallery." />
-        <meta property="og:title" content="Gallery | Expert dermatologists delivering evidence-based skin, hair and nail treatments with personalized care and advanced technology." />
-        <meta property="og:description" content="Take a visual tour of Prashali Skin Sciences — Advanced Dermatology &amp; Aesthetic Excellence in Nelamangala, Bangalore. View our advanced equipment, treatment rooms, and results." />
+        <title>Gallery | Prashali Skin Sciences Nelamangala</title>
+        <meta name="description" content="See our clinic, equipment, and treatment rooms at Prashali Skin Sciences, Nelamangala." />
+        <meta property="og:title" content="Gallery | Prashali Skin Sciences Nelamangala" />
+        <meta property="og:description" content="Photos of our clinic, equipment, and treatment rooms in Nelamangala." />
         <meta property="og:url" content="https://prashaliskinsciences.com/gallery" />
         <link rel="canonical" href="https://prashaliskinsciences.com/gallery" />
         <script type="application/ld+json">
@@ -38,7 +38,7 @@ export default function Gallery() {
             transition={{ delay: 0.2 }}
             className="text-white/80 max-w-2xl mx-auto text-lg"
           >
-            Take a visual tour of our clinic, advanced equipment, and treatment results.
+            Take a look around. See what the clinic actually looks like.
           </motion.p>
         </div>
       </div>

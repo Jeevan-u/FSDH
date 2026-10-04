@@ -29,10 +29,10 @@ export default function Contact() {
   return (
     <div className="pb-16">
       <Helmet>
-        <title>Contact Us | Expert dermatologists delivering evidence-based skin, hair and nail treatments with personalized care and advanced technology.</title>
-        <meta name="description" content="Contact Prashali Skin Sciences — Advanced Dermatology &amp; Aesthetic Excellence in Nelamangala, Bangalore. Call +91 9606042223, email prashaliskinsciences@gmail.com, or visit our clinic near Subash Nagar." />
+        <title>Contact Us | Prashali Skin Sciences Nelamangala</title>
+        <meta name="description" content="Contact Prashali Skin Sciences — call +91 9606042223, email prashaliskinsciences@gmail.com, or visit us near Subash Nagar, Nelamangala." />
         <meta property="og:title" content="Contact Us | Prashali Skin Sciences Nelamangala" />
-        <meta property="og:description" content="Contact Prashali Skin Sciences — Advanced Dermatology &amp; Aesthetic Excellence in Nelamangala, Bangalore. Visit our clinic or call us for expert skin, hair &amp; aesthetic care." />
+        <meta property="og:description" content="Get in touch with Prashali Skin Sciences in Nelamangala. Call, email, or visit." />
         <meta property="og:url" content="https://prashaliskinsciences.com/contact" />
         <link rel="canonical" href="https://prashaliskinsciences.com/contact" />
         <script type="application/ld+json">
@@ -61,7 +61,7 @@ export default function Contact() {
             transition={{ delay: 0.2 }}
             className="text-white/80 max-w-2xl mx-auto text-base"
           >
-            Get in touch with Prashali Skin Sciences. We are here to help.
+            Get in touch. We're happy to help.
           </motion.p>
         </div>
       </div>

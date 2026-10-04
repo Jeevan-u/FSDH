@@ -106,7 +106,7 @@ export default function Navbar() {
             <div className="px-4 pt-2 pb-6 space-y-1">
               <div className="flex items-center gap-2 px-4 py-2 mb-2 bg-accent-50 rounded-lg">
                 <Award className="h-4 w-4 text-accent-500" />
-                <span className="text-xs font-semibold text-accent-700">Expert dermatologists delivering evidence-based skin, hair and nail treatments with personalized care and advanced technology.</span>
+                <span className="text-xs font-semibold text-accent-700">Skin, hair &amp; aesthetic treatments — Nelamangala</span>
               </div>
               {navLinks.map((link) => (
                 <Link

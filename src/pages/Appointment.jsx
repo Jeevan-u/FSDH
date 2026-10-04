@@ -7,10 +7,10 @@ export default function Appointment() {
   return (
     <div className="pb-24">
       <Helmet>
-        <title>Book Appointment | Expert dermatologists delivering evidence-based skin, hair and nail treatments with personalized care and advanced technology.</title>
-        <meta name="description" content="Book a consultation with Dr. Varsha R. Koti (MD, DNB) — Advanced Dermatology &amp; Aesthetic Excellence in Nelamangala, Bangalore. Easy online booking for dermatology, hair, and aesthetic treatments at Prashali Skin Sciences." />
+        <title>Book Appointment | Prashali Skin Sciences Nelamangala</title>
+        <meta name="description" content="Book a consultation with Dr. Varsha R. Koti (MD, DNB) in Nelamangala. Skin, hair &amp; aesthetic treatments at Prashali Skin Sciences." />
         <meta property="og:title" content="Book Appointment | Prashali Skin Sciences Nelamangala" />
-        <meta property="og:description" content="Book a consultation with Dr. Varsha R. Koti — Advanced Dermatology &amp; Aesthetic Excellence in Nelamangala, Bangalore. Easy online booking for skin, hair &amp; aesthetic treatments." />
+        <meta property="og:description" content="Book a consultation with Dr. Varsha R. Koti — skin, hair &amp; aesthetic treatments in Nelamangala." />
         <meta property="og:url" content="https://prashaliskinsciences.com/appointment" />
         <link rel="canonical" href="https://prashaliskinsciences.com/appointment" />
         <script type="application/ld+json">
@@ -42,7 +42,7 @@ export default function Appointment() {
             transition={{ delay: 0.2 }}
             className="text-white/80 max-w-2xl mx-auto text-lg"
           >
-            Take the first step towards healthier skin and hair. Schedule your visit today.
+            Pick a time that works for you. We'll take it from there.
           </motion.p>
         </div>
       </div>
@@ -62,9 +62,9 @@ export default function Appointment() {
               <h3 className="text-lg font-bold text-slate-900 mb-5 font-display">Why Book With Us?</h3>
               <div className="space-y-5">
                 {[
-                  { icon: Calendar, title: 'Easy Scheduling', desc: 'Choose your preferred date and time for consultation.' },
-                  { icon: Clock, title: 'Minimal Wait Time', desc: 'We value your time and keep appointments on schedule.' },
-                  { icon: ShieldCheck, title: 'Expert Care', desc: 'Consult with a qualified MD, DNB dermatologist.' },
+                  { icon: Calendar, title: 'Pick Your Slot', desc: 'Choose a date and time that works.' },
+                  { icon: Clock, title: 'No Long Waits', desc: 'We run on time, mostly.' },
+                  { icon: ShieldCheck, title: 'Real Doctor', desc: 'MD, DNB dermatologist. Not a trainee.' },
                 ].map((item, i) => (
                   <div key={i} className="flex items-start gap-3">
                     <div className="w-10 h-10 bg-primary-50 rounded-xl flex items-center justify-center shrink-0">
@@ -107,7 +107,7 @@ export default function Appointment() {
                 ))}
               </div>
               <p className="text-sm font-semibold text-slate-900">4.9 Stars • 100+ Reviews</p>
-              <p className="text-xs text-slate-500 mt-1">Trusted by patients across Nelamangala</p>
+              <p className="text-xs text-slate-500 mt-1">4.9 stars on Google</p>
             </div>
           </div>
         </div>

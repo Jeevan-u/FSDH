@@ -30,10 +30,10 @@ export default function FAQ() {
   return (
     <div className="pb-24">
       <Helmet>
-        <title>FAQ | Expert dermatologists delivering evidence-based skin, hair and nail treatments with personalized care and advanced technology.</title>
-        <meta name="description" content="Find answers to frequently asked questions about dermatology treatments, hair restoration, laser procedures, and skin care at Prashali Skin Sciences — Advanced Dermatology &amp; Aesthetic Excellence in Nelamangala, Bangalore." />
+        <title>FAQ | Prashali Skin Sciences Nelamangala</title>
+        <meta name="description" content="Common questions about dermatology treatments, hair restoration, and skin care at Prashali Skin Sciences, Nelamangala." />
         <meta property="og:title" content="FAQ | Prashali Skin Sciences Nelamangala" />
-        <meta property="og:description" content="Find answers to frequently asked questions about dermatology and aesthetic treatments at Prashali Skin Sciences — Advanced Dermatology &amp; Aesthetic Excellence in Nelamangala, Bangalore." />
+        <meta property="og:description" content="Answers to common questions about treatments at Prashali Skin Sciences, Nelamangala." />
         <meta property="og:url" content="https://prashaliskinsciences.com/faq" />
         <link rel="canonical" href="https://prashaliskinsciences.com/faq" />
         <script type="application/ld+json">
@@ -68,7 +68,7 @@ export default function FAQ() {
               Frequently Asked Questions
             </h1>
             <p className="text-white/80 max-w-2xl mx-auto text-lg">
-              Find answers to common questions about our treatments and services.
+              Find answers to common questions about treatments and pricing.
             </p>
           </motion.div>
         </div>
@@ -102,7 +102,7 @@ export default function FAQ() {
 
         <div className="mt-16 text-center card-premium p-8">
           <h3 className="text-xl font-bold text-slate-900 mb-3 font-display">Still have questions?</h3>
-          <p className="text-slate-600 mb-6">We are here to help. Reach out to us anytime.</p>
+          <p className="text-slate-600 mb-6">Didn't find what you're looking for? Just ask.</p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/contact" className="btn-primary">
               Contact Us

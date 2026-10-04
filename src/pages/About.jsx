@@ -8,10 +8,10 @@ export default function About() {
   return (
     <div className="pb-24">
       <Helmet>
-        <title>About Dr. Varsha R. Koti | Expert dermatologists delivering evidence-based skin, hair and nail treatments with personalized care and advanced technology.</title>
-        <meta name="description" content="Meet Dr. Varsha R. Koti (MBBS, MD, DNB) — Advanced Dermatology &amp; Aesthetic Excellence in Nelamangala, Bangalore. Expert in clinical dermatology, dermatosurgery, lasers &amp; aesthetic treatments at Prashali Skin Sciences." />
-        <meta property="og:title" content="About Dr. Varsha R. Koti | Expert dermatologists delivering evidence-based skin, hair and nail treatments with personalized care and advanced technology." />
-        <meta property="og:description" content="Meet Dr. Varsha R. Koti (MBBS, MD, DNB) — Advanced Dermatology &amp; Aesthetic Excellence in Nelamangala, Bangalore. Expert in clinical dermatology, dermatosurgery, lasers &amp; aesthetic treatments." />
+        <title>About Dr. Varsha R. Koti | Dermatologist in Nelamangala</title>
+        <meta name="description" content="Dr. Varsha R. Koti — MBBS, MD, DNB dermatologist in Nelamangala. Clinical dermatology, dermatosurgery, lasers &amp; aesthetic treatments at Prashali Skin Sciences." />
+        <meta property="og:title" content="About Dr. Varsha R. Koti | Dermatologist in Nelamangala" />
+        <meta property="og:description" content="Dr. Varsha R. Koti — MBBS, MD, DNB dermatologist in Nelamangala. Clinical dermatology, dermatosurgery, lasers &amp; aesthetic treatments." />
         <meta property="og:url" content="https://prashaliskinsciences.com/about" />
         <link rel="canonical" href="https://prashaliskinsciences.com/about" />
         <script type="application/ld+json">
@@ -79,7 +79,7 @@ export default function About() {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
             >
-              <span className="text-accent-500 font-semibold text-sm uppercase tracking-widest">Meet Your Doctor</span>
+              <span className="text-accent-500 font-semibold text-sm uppercase tracking-widest">About</span>
               <h1 className="text-3xl md:text-5xl font-bold text-slate-900 mt-3 mb-4 font-display">
                 {doctor.name}
               </h1>

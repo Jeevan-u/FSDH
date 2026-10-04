@@ -24,10 +24,10 @@ export default function Home() {
   return (
     <div>
       <Helmet>
-        <title>Prashali Skin Sciences | Advanced Dermatology &amp; Aesthetic Excellence in Nelamangala, Bangalore</title>
-        <meta name="description" content="Prashali Skin Sciences — Advanced Dermatology &amp; Aesthetic Excellence in Nelamangala, Bangalore. Expert skin, hair &amp; aesthetic care by Dr. Varsha R. Koti (MD, DNB)." />
-        <meta property="og:title" content="Prashali Skin Sciences | Advanced Dermatology &amp; Aesthetic Excellence in Nelamangala, Bangalore" />
-        <meta property="og:description" content="Prashali Skin Sciences — Advanced Dermatology &amp; Aesthetic Excellence in Nelamangala, Bangalore. Expert skin, hair &amp; aesthetic care by Dr. Varsha R. Koti (MD, DNB)." />
+        <title>Prashali Skin Sciences | Skin, Hair &amp; Aesthetic Treatments in Nelamangala</title>
+        <meta name="description" content="Skin, hair &amp; aesthetic treatments by Dr. Varsha R. Koti (MD, DNB) in Nelamangala, Bangalore." />
+        <meta property="og:title" content="Prashali Skin Sciences | Skin, Hair &amp; Aesthetic Treatments in Nelamangala" />
+        <meta property="og:description" content="Skin, hair &amp; aesthetic treatments by Dr. Varsha R. Koti (MD, DNB) in Nelamangala, Bangalore." />
         <meta property="og:url" content="https://prashaliskinsciences.com/" />
         <link rel="canonical" href="https://prashaliskinsciences.com/" />
         <script type="application/ld+json">
@@ -38,7 +38,7 @@ export default function Home() {
                 "@type": "MedicalClinic",
                 "@id": "https://prashaliskinsciences.com/#clinic",
                 "name": "Prashali Skin Sciences",
-                "description": "Advanced Dermatology &amp; Aesthetic Excellence clinic in Nelamangala, Bangalore.",
+                "description": "Dermatology clinic in Nelamangala, Bangalore — skin, hair &amp; aesthetic treatments.",
                 "url": "https://prashaliskinsciences.com",
                 "telephone": "+919606042223",
                 "email": "prashaliskinsciences@gmail.com",
@@ -99,7 +99,7 @@ export default function Home() {
                 className="inline-flex items-center gap-2 px-4 py-1.5 bg-accent-500/10 backdrop-blur-md rounded-full border border-accent-500/20 text-accent-600 text-xs font-semibold mb-6"
               >
                 <Award className="h-3.5 w-3.5" />
-                Advanced Dermatology &amp; Aesthetic Excellence in Nelamangala
+Your Go-To Skin &amp; Hair Clinic in Nelamangala
               </motion.div>
 
               <motion.h1
@@ -108,9 +108,7 @@ export default function Home() {
                 transition={{ duration: 0.6, delay: 0.1 }}
                 className="text-4xl sm:text-5xl md:text-7xl font-bold text-primary-500 leading-[1.1] mb-5 font-display"
               >
-                Expert Dermatology
-                <br />
-                Care in <span className="text-gradient">Nelamangala</span>
+                Skin Concerns?<br />We've Got <span className="text-gradient">You Covered</span>
               </motion.h1>
 
               <motion.p
@@ -119,7 +117,7 @@ export default function Home() {
                 transition={{ duration: 0.5, delay: 0.2 }}
                 className="text-base sm:text-lg text-primary-500/70 leading-relaxed mb-8 max-w-xl"
               >
-                Science-backed skin, hair, and aesthetic treatments by <strong className="text-primary-500">Dr. Varsha R. Koti</strong> — bringing advanced dermatology with personalized care to Nelamangala.
+                From acne scars to hair fall, <strong className="text-primary-500">Dr. Varsha R. Koti</strong> treats it all — with real science, not gimmicks. Your skin deserves better, and Nelamangala now has it.
               </motion.p>
 
               <motion.div
@@ -273,22 +271,22 @@ export default function Home() {
               <div>
                 <div className="flex items-center gap-2 text-accent-500 font-semibold text-xs uppercase tracking-widest mb-3">
                   <BadgeCheck className="h-4 w-4" />
-                  Why Prashali Skin Sciences
+                  Why us
                 </div>
                 <h2 className="text-2xl md:text-4xl font-bold text-slate-900 mb-4 font-display leading-tight">
-                  Advanced Technology.
+                  Real Results.
                   <br />
-                  <span className="text-primary-400">Trusted Protocols.</span>
+                  <span className="text-primary-400">No Fluff.</span>
                 </h2>
                 <p className="text-sm text-slate-600 leading-relaxed mb-6">
-                  At Prashali Skin Sciences, we assess your skin and hair concerns, recommend the best treatment options, and create a personalized care plan for optimal results.
+                  We look at your skin, figure out what's actually going on, and build a plan that works. That's it.
                 </p>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                   {[
-                    { icon: Shield, title: 'Evidence-Based', desc: 'Treatments backed by clinical research.' },
-                    { icon: Award, title: 'FDA Approved Tech', desc: 'Cutting-edge international standards.' },
-                    { icon: BadgeCheck, title: 'Expert Dermatologist', desc: 'Led by Dr. Varsha R. Koti, MD, DNB.' },
-                    { icon: Sparkles, title: 'Personalized Care', desc: 'Custom plans for your unique needs.' },
+                    { icon: Shield, title: 'Proven Methods', desc: 'What works, not what\'s trendy.' },
+                    { icon: Award, title: 'Modern Equipment', desc: 'The right tools for the job.' },
+                    { icon: BadgeCheck, title: 'Qualified Doctor', desc: 'MD, DNB — trained, not guessing.' },
+                    { icon: Sparkles, title: 'Your Plan', desc: 'Built around your skin, not templates.' },
                   ].map((item, i) => (
                     <div key={i} className="flex items-start gap-3 p-3 rounded-xl bg-slate-50/80">
                       <div className="w-9 h-9 bg-primary-500 rounded-lg flex items-center justify-center shrink-0 mt-0.5">
@@ -355,10 +353,10 @@ export default function Home() {
           >
             <p className="text-xs text-accent-500 font-semibold uppercase tracking-widest mb-2">What We Treat</p>
             <h2 className="text-2xl md:text-4xl font-bold text-slate-900 font-display">
-              Popular Treatments
+              Treatments
             </h2>
             <p className="text-slate-500 text-sm mt-2 max-w-xl mx-auto">
-              Advanced, science-backed treatments for every skin and hair concern.
+              Acne to anti-aging, hair loss to lasers — we do it all.
             </p>
           </motion.div>
 
@@ -414,7 +412,7 @@ export default function Home() {
           <div className="max-w-5xl mx-auto px-4 py-16 md:py-20 text-center relative">
             <Quote className="h-10 w-10 text-accent-500/30 mx-auto mb-6" />
             <blockquote className="text-xl md:text-2xl text-white/90 font-display font-medium leading-relaxed max-w-3xl mx-auto mb-8">
-              Our commitment is to provide evidence-based, personalized dermatological care — combining medical expertise with cutting-edge technology to deliver natural-looking results for every patient.
+              Good dermatology isn't about selling packages. It's about understanding your skin and doing what actually works. That's what we do here.
             </blockquote>
             <div className="flex items-center justify-center gap-3">
               <img src={doctor.image} alt="" className="w-10 h-10 rounded-full object-cover border-2 border-accent-500/50" />
@@ -430,10 +428,10 @@ export default function Home() {
           <div className="max-w-7xl mx-auto px-4">
             <div className="flex flex-wrap items-center justify-center gap-x-12 gap-y-4">
               {[
-                { label: 'Expert Dermatologists', sub: 'Evidence-Based Care' },
-                { label: '5000+ Patients', sub: 'Trusted Care' },
-                { label: '4.9 Stars', sub: '100+ Google Reviews' },
-                { label: 'Award Winning', sub: 'Dermatology Care' },
+                { label: 'MD, DNB Dermatologist', sub: 'Dr. Varsha R. Koti' },
+                { label: '5000+ Patients', sub: 'And counting' },
+                { label: '4.9 Stars', sub: 'Google Reviews' },
+                { label: 'Since 2017', sub: 'Nelamangala' },
               ].map((item, i) => (
                 <motion.div
                   key={i}
@@ -473,7 +471,7 @@ export default function Home() {
               Ready to Transform Your Skin?
             </h2>
             <p className="text-white/80 max-w-xl mx-auto mb-8">
-              Take the first step toward healthier skin and hair. Schedule your consultation with Advanced Dermatology &amp; Aesthetic Excellence in Nelamangala.
+              Book a visit. Get a plan that actually makes sense for your skin.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <Link to="/appointment" className="inline-flex items-center gap-2 px-8 py-3.5 bg-accent-500 text-primary-500 rounded-full font-semibold hover:bg-accent-400 transition-all shadow-lg shadow-black/20">

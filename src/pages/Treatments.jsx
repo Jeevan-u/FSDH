@@ -18,10 +18,10 @@ export default function Treatments() {
   return (
     <div className="pb-24">
       <Helmet>
-        <title>Dermatology, Hair & Laser Treatments | Expert dermatologists delivering evidence-based skin, hair and nail treatments with personalized care and advanced technology.</title>
-        <meta name="description" content="Explore 30+ dermatology, hair restoration, laser &amp; aesthetic treatments at Prashali Skin Sciences in Nelamangala, Bangalore — Advanced Dermatology &amp; Aesthetic Excellence in Nelamangala. Acne, PRP, HydraFacial, laser hair reduction &amp; more." />
-        <meta property="og:title" content="Dermatology, Hair & Laser Treatments | Prashali Skin Sciences Nelamangala" />
-        <meta property="og:description" content="Explore 30+ dermatology, hair restoration, laser &amp; aesthetic treatments at Prashali Skin Sciences — Advanced Dermatology &amp; Aesthetic Excellence in Nelamangala, Bangalore." />
+        <title>Treatments | Prashali Skin Sciences Nelamangala</title>
+        <meta name="description" content="30+ skin, hair, laser &amp; aesthetic treatments at Prashali Skin Sciences, Nelamangala. Acne, PRP, HydraFacial, laser hair reduction &amp; more." />
+        <meta property="og:title" content="Treatments | Prashali Skin Sciences Nelamangala" />
+        <meta property="og:description" content="30+ skin, hair, laser &amp; aesthetic treatments at Prashali Skin Sciences, Nelamangala." />
         <meta property="og:url" content="https://prashaliskinsciences.com/treatments" />
         <link rel="canonical" href="https://prashaliskinsciences.com/treatments" />
         <script type="application/ld+json">
@@ -53,7 +53,7 @@ export default function Treatments() {
             transition={{ delay: 0.2 }}
             className="text-white/80 max-w-2xl mx-auto text-lg"
           >
-            Comprehensive dermatology, hair restoration, aesthetic and laser treatments tailored for you.
+            Everything your skin and hair needs, in one place.
           </motion.p>
         </div>
       </div>
@@ -93,7 +93,7 @@ export default function Treatments() {
               Not Sure Which Treatment You Need?
             </h2>
             <p className="text-white/80 text-lg mb-8 max-w-2xl mx-auto">
-              Book a consultation with our expert dermatologist for a personalized assessment.
+              Not sure what you need? That's fine — we'll figure it out together.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <a
